@@ -17,6 +17,21 @@ Este repositorio contiene código en **Python** desarrollado en **Jupyter Notebo
 
 ## 🛠️ Requisitos
 
+Antes de ejecutar el código, asegúrate de crear un archivo `.env` con la siguiente configuración:
+
+```ini
+AZURE_OPENAI_ENDPOINT=
+AZURE_OPENNAI_DEPLOYMENT_NAME=
+AZURE_OPENAI_EMBEDINGS_DEPLOYMENT_NAME=
+AZURE_OPENAI_API_KEY=
+BING_ENDPOINT=
+BING_SEARCH_API_KEY=
+AZURE_OPENAI_EMBEDINGS_API_KEY=
+AZURE_OPENAI_ENDPOINT_EMBEDINGS=
+```
+Estos valores deben configurarse con credenciales válidas para que el sistema funcione correctamente.
+
+
 Antes de ejecutar el código, asegúrate de tener instalados los siguientes requisitos:
 
 - **Python 3.8+**
